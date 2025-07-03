@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Cabeçalho*/
+.h {
+    background-color: blue;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    background-color: rgb(198, 198, 255);
+    width: 20vw;
+    height: 10vh;
+}
+
+.titulo {
+    background-color: rgb(115, 145, 153);
+    width: 35vw;
+    height: 10vh;
+}
+/*imformaçoes sobre o site*/
+#informs {
+    background-color: rgb(0, 139, 19);
+    width: 80vw;
+    height: 80vh;
+}
+
+.fim {
+    background-color: rgb(153, 56, 56);
+    width: 100%;
+    height: 10vh;
+}
+
+#lado {
+    display: flex;
+}
+
+.pags {
+    background-color: rgb(196, 5, 132);
+    width: 20vw;
+    height: 80vh;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+/*--------------------//------------------PAGINAS-----------------------------//-----------------------*/
+
+#imgs {
+    background-color: rgb(190, 162, 0);
+    width: 100%;
+    height: 40vh;
+}
+.main1 {
+   
+}
+.main2 {
+
+}
