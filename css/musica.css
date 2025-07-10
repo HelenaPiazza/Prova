@@ -5,7 +5,7 @@
 }
 /*Cabeçalho*/
 .h {
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 10vh;
     display: flex;
@@ -14,56 +14,133 @@
 }
 
 #logo {
-    background-color: rgb(198, 198, 255);
-    width: 20vw;
+    width: 15vw;
     height: 10vh;
 }
 
 .titulo {
-    background-color: rgb(115, 145, 153);
+    background-color: rgb(255, 255, 255);
     width: 35vw;
     height: 10vh;
 }
 /*imformaçoes sobre o site*/
 #informs {
-    background-color: rgb(0, 139, 19);
+    background-color: rgb(226, 241, 255);
     width: 80vw;
     height: 80vh;
+    border: 2px solid #000;
+}
+#informs h1{
+    padding: 40px;
 }
 
 .fim {
-    background-color: rgb(153, 56, 56);
+    background-color: rgb(149, 198, 255);
     width: 100%;
     height: 10vh;
+    padding: 20px;
+    border: 2px solid #000;
 }
 
-#lado {
+.lado {
     display: flex;
 }
 
 .pags {
-    background-color: rgb(196, 5, 132);
+    background-color: rgb(44, 136, 255);
     width: 20vw;
     height: 80vh;
+    border: 2px solid #000;
 }
+.pags h1{
+    height: 10%;
+}
+
+ ul{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pags ul li{
+    width: 100%;
+    background-color: rgb(67, 149, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15%;
+}
+
 
 body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+P, #dois, a {
+    color: rgb(0, 18, 66);
+}
+.um {
+    color: white;
 }
 
 /*--------------------//------------------PAGINAS-----------------------------//-----------------------*/
 
-#imgs {
-    background-color: rgb(190, 162, 0);
+#imgs1 {
+    background-image: url(../img/fundo\ sobre\ o\ site.jpg);
+    background-repeat: no-repeat; 
+    background-size: 40%; 
+    background-position: center;
     width: 100%;
     height: 40vh;
 }
-.main1 {
-   
+#imgs2 {
+    background-color: black;
+    background-image: url(../img/fundo\ funk.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%; 
+    background-position: center;
+    width: 100%;
+    height: 40vh;
 }
-.main2 {
 
+#mainP {
+    background-color: rgb(0, 0, 0);
+    width: 78.97vw;
+    height: 80vh;
+    display: flex;
 }
+.main1 {
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 100%;
+}
+.main1 h1{
+    padding: 40px;
+}
+
+
+/*--------------------//------------------SOBRE O SITE-----------------------------//-----------------------*/
+
+#main {
+    background-color: rgb(79, 118, 163);
+    width: 78.97vw;
+    height: 80vh;
+    border: 2px solid #000;
+}
+
+#main h1{
+    padding: 40px;
+}
+
+
+/*--------------------//------------------TEXTOS-----------------------------//-----------------------*/
+
