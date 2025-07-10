@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /*Cabeçalho*/
 .h {
     background-color: rgb(255, 255, 255);
@@ -23,6 +24,7 @@
     width: 35vw;
     height: 10vh;
 }
+
 /*imformaçoes sobre o site*/
 #informs {
     background-color: rgb(226, 241, 255);
@@ -30,7 +32,8 @@
     height: 80vh;
     border: 2px solid #000;
 }
-#informs h1{
+
+#informs h1 {
     padding: 40px;
 }
 
@@ -52,18 +55,20 @@
     height: 80vh;
     border: 2px solid #000;
 }
-.pags h1{
+
+.pags h1 {
     height: 10%;
 }
 
- ul{
+ul {
     width: 100%;
     height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.pags ul li{
+
+.pags ul li {
     width: 100%;
     background-color: rgb(67, 149, 255);
     display: flex;
@@ -73,7 +78,7 @@
 }
 
 
-body{
+body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -85,9 +90,11 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+
 P, #dois, a {
     color: rgb(0, 18, 66);
 }
+
 .um {
     color: white;
 }
@@ -96,17 +103,18 @@ P, #dois, a {
 
 #imgs1 {
     background-image: url(../img/fundo\ sobre\ o\ site.jpg);
-    background-repeat: no-repeat; 
-    background-size: 40%; 
+    background-repeat: no-repeat;
+    background-size: 40%;
     background-position: center;
     width: 100%;
     height: 40vh;
 }
+
 #imgs2 {
     background-color: black;
     background-image: url(../img/fundo\ funk.jpg);
     background-repeat: no-repeat;
-    background-size: 50%; 
+    background-size: 50%;
     background-position: center;
     width: 100%;
     height: 40vh;
@@ -118,12 +126,14 @@ P, #dois, a {
     height: 80vh;
     display: flex;
 }
+
 .main1 {
     background-color: rgb(0, 0, 0);
     width: 50%;
     height: 100%;
 }
-.main1 h1{
+
+.main1 h1 {
     padding: 40px;
 }
 
@@ -137,10 +147,9 @@ P, #dois, a {
     border: 2px solid #000;
 }
 
-#main h1{
+#main h1 {
     padding: 40px;
 }
 
 
 /*--------------------//------------------TEXTOS-----------------------------//-----------------------*/
-
